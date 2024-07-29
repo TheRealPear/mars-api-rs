@@ -17,7 +17,7 @@ redis = { version = "0.21.5", features = ["r2d2", "aio", "tokio-comp"] }
 mars_api_rs_macro = { path = "./mars_api_rs_macro" }
 mars_api_rs_derive = { path = "./mars_api_rs_macro/mars_api_rs_derive" }
 mobc = "0.7.3"
-uuid = { version = "1.1.2", features = ["v4", "fast-rng", "macro-diagnostics"] }
+uuid = { version = "1.10.0", features = ["v4", "fast-rng", "macro-diagnostics"] }
 chrono = "0.4.19"
 num-traits = "0.2.15"
 strum = "0.24.1"
